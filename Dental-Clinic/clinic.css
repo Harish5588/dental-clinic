@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+#heading{
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0.5084rem 1.1419rem 2.5rem 0(000/8%);
+    transition: 0.3s ease-in-out;
+}
+#home{
+    margin-top: 100px;
+    height: 100%;
+    padding-bottom: 80px;
+    background-image: url(/images/top-banner-img/Top-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#home2{
+    background-color: rgb(239, 233, 248);
+}
+
+.animate1{
+    height: 100px;
+    margin-left: -170px;
+    margin-top: -175px;
+}
+.animate2{
+    height: 100px;
+    margin-left: 100px;
+    margin-top: -110px;
+}
+#home2 img{
+    width:120px;
+    
+}
+#about{
+    background-color:rgb(239, 233, 248) ;
+}
+.abt-1 img{
+    height: 450px;
+   
+
+}
+.abt-2 img{
+    height: 250px;
+    margin-top: -250px;
+    
+}
+
+#services img{
+    width: 75px;
+}
+#services{
+    background-color:#004CAA;
+    color: white;
+}
+#services .card{
+    background-color: #004CAA;
+    border:1px solid white;
+    color: white;
+    
+}
+#team{
+    background-color:rgb(239, 233, 248);
+    color: black;
+}
+#team .card{
+    background-color:white;
+}
+#team h5{
+    color:#004CAA ;
+}
+#team p{
+    color: grey;
+}
+#team img{
+width: 200px;
+}
+#team i{
+    width: 25px;
+    height: 25px;
+    background-color: grey;
+    color: white;
+    align-content: center;
+    border-radius: 4px;
+    font-size: 14px;
+}
+#gallery{
+    background-color: #3672bc;
+    color: white;
+}
+#blog .card{
+    background-color:#3672bc;
+    color: white;
+}
+#blog p{
+    color: white;
+}
+.request{
+    background-image:url(/images/appointmnet-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#contact{
+    background-color: #3672bc;
+}
+#contact i{
+    margin-left: 10px;
+    text-align: center;
+}
+#contact ul{
+    list-style: none;
+    
+}
+#contact ul li::before{
+    content:"> ";
+    font-weight: bold;
+    font-family:Verdana;
+}
+#contact button{
+    color: white;
+}
+
+.card button{
+    color: white;
+}
+.footer{
+    background-color: #004CAA;
+}
+
+.animate1 ,.animate2,.abt-2{
+    animation: move 2s infinite;
+}
+.navbar .navbar-nav .nav-item .nav-link.active{
+    color:rgb(255, 159, 255);
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color:rgb(255, 159, 255);
+}
+@keyframes move{
+    0%{transform: translate(0);}
+    50%{transform: translate(0px,-30px);}
+    }
